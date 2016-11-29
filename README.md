@@ -1,4 +1,4 @@
-# Automatic heating system barrier with ds18b20 and arduino
+# Automatic heating system barrier (CAME 4000) with ds18b20 and arduino
 
 
 The task was to make the automatic inclusion of the heating system at a certain temperature (-10 degrees Celsius).<br>
