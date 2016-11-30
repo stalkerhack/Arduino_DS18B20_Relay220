@@ -1,14 +1,14 @@
 #include <OneWire.h>
-
-
-OneWire  ds(12);  
+  
 
 void setup(void) {  
  
-  pinMode(10, OUTPUT); // arduino power LED-diode(green)
-  pinMode(9, OUTPUT); // temprerature LED-diode(blue)
-  pinMode(8, OUTPUT); // relay switch on/off LED-diode(green)
-  pinMode(2, OUTPUT); // relay control 220v input pin
+  pinMode(8, OUTPUT); // on/off 220v diode indicate 
+  pinMode(7, OUTPUT); // arduino power LED-diode(green)
+  pinMode(6 OUTPUT); // relay switch on/off LED-diode(green)
+  pinMode(5, OUTPUT); // temprerature LED-diode(blue)
+  pinMode(11, OUTPUT); // relay control 220v input pin
+  OneWire  ds(12); // DS18B20 input-pin
   Serial.begin(9600);
   
 }
@@ -23,7 +23,8 @@ void loop(void) {
   float celsius;
   //float fahrenheit;
   
-  digitalWrite(10, HIGH);
+  digitalWrite(7, HIGH);
+  
   if ( !ds.search(addr)) {
     Serial.println("No more addresses.");
     Serial.println();
@@ -108,13 +109,13 @@ void loop(void) {
   //Serial.print(fahrenheit);
   //Serial.println(" Fahrenheit");
   if (celsius <= -10.00) {
-      digitalWrite(9, HIGH);
-      digitalWrite(8, HIGH);  
-      digitalWrite(2, LOW);           
+      digitalWrite(5, HIGH);
+      digitalWrite(6, HIGH);  
+      digitalWrite(11, LOW);           
     } else if (celsius >= -10.00) {
-      digitalWrite(9, LOW);
-      digitalWrite(8, LOW); 
-      digitalWrite(2, HIGH);
+      digitalWrite(5, LOW);
+      digitalWrite(6, LOW); 
+      digitalWrite(11, HIGH);
     } 
      
     delay(10000);
