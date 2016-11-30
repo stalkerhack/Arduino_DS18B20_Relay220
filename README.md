@@ -22,5 +22,5 @@ Components Used: <br>
 
 # Below is the schema:
 
-![Image alt](https://github.com/stalkerhack/Arduino_DS18B20_Relay220/img/ardNANO.jpg)
+![Image alt](https://github.com/stalkerhack/Arduino_DS18B20_Relay220/blob/master/img/ardNANO.jpg)
 
