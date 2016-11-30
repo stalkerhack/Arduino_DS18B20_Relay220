@@ -20,7 +20,7 @@ Components Used: <br>
     6.1)4.7 kOm x1 (for sensor)<br>
     6.2)150-250 Om x4 (for light-emitting diodes)<br>
 
-# Below is the schema:
+# Below shows the schema:
 
 ![Image alt](https://github.com/stalkerhack/Arduino_DS18B20_Relay220/blob/master/img/ardNANO.jpg)
 
