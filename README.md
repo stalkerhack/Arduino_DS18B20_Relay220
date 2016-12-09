@@ -24,7 +24,7 @@ and that arduino may turn on the relay.<br>
 (sensor and relay).<br>
   6)Resistors:<br>
     6.1)4.7 kOm x1 (for sensor)<br>
-    6.2)470 Om x4 (for light-emitting diodes)<br>
+    6.2)150-250 Om x4 (for light-emitting diodes)<br>
 
 # Below shows the schema:
 
