@@ -28,4 +28,9 @@ and that arduino may turn on the relay.<br>
 
 # Below shows the schema:
 
-![Image alt](https://github.com/stalkerhack/Arduino_DS18B20_Relay220/blob/master/img/ardNANO.jpg)
+![Shema](https://github.com/stalkerhack/Arduino_DS18B20_Relay220/blob/master/img/ardNANO.jpg)
+
+# Showing how does it work:
+
+![ImgWork](https://github.com/stalkerhack/Arduino_DS18B20_Relay220/blob/master/img/ardWorking.jpg)
+
