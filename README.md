@@ -30,6 +30,6 @@ and that arduino may turn on the relay.<br>
 
 ![Shema](https://github.com/stalkerhack/Arduino_DS18B20_Relay220/blob/master/img/ardNANO.jpg)
 
-# Showing how does it work:
+# This screenshoot is showing how it works:
 
 ![ImgWork](https://github.com/stalkerhack/Arduino_DS18B20_Relay220/blob/master/img/ardWorking.png)
