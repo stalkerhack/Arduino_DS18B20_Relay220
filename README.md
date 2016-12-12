@@ -32,5 +32,4 @@ and that arduino may turn on the relay.<br>
 
 # Showing how does it work:
 
-![ImgWork](https://github.com/stalkerhack/Arduino_DS18B20_Relay220/blob/master/img/ardWorking.jpg)
-
+![ImgWork](https://github.com/stalkerhack/Arduino_DS18B20_Relay220/blob/master/img/ardWorking.png)
