@@ -8,12 +8,15 @@ void setup(void) {
   pinMode(8, OUTPUT); // relay switch on/off LED-diode(green)
   pinMode(4, OUTPUT); // temprerature LED-diode(blue)
   pinMode(2, OUTPUT); // relay control 220v input pin
-  OneWire  ds(12); // DS18B20 input-pin
-  Serial.begin(9600);
+
   
 }
 
 void loop(void) {
+  
+  OneWire  ds(12); // DS18B20 input-pin
+  Serial.begin(9600);
+  
   int loop_relay = 0; //initialization variable for loop relay
   byte i;
   byte present = 0;
@@ -108,11 +111,11 @@ void loop(void) {
   Serial.print(" Celsius, ");
   //Serial.print(fahrenheit);
   //Serial.println(" Fahrenheit");
-  if (celsius <= -30.00) {
+  if (celsius <= 30.00) {
       digitalWrite(4, HIGH);
       digitalWrite(8, HIGH);  
       digitalWrite(2, LOW);           
-    } else if (celsius >= -10.00) {
+    } else if (celsius >= 30.00) {
       digitalWrite(4, LOW);
       digitalWrite(8, LOW); 
       digitalWrite(2, HIGH);
