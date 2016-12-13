@@ -3,7 +3,7 @@
 
 void setup(void) {  
  
-  //pinMode(8, OUTPUT); // on/off 220v diode indicate 
+   
   pinMode(7, OUTPUT); // arduino power LED-diode(green)
   pinMode(6, OUTPUT); // relay switch on/off LED-diode(green)
   pinMode(5, OUTPUT); // temprerature LED-diode(blue)
